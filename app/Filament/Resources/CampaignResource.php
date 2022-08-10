@@ -17,7 +17,7 @@ class CampaignResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-collection';
 
-    protected static ?string $navigationGroup = 'ISSUE #3422';
+    protected static ?string $navigationGroup = 'ISSUE #3451';
 
     public static function form(Form $form): Form
     {
