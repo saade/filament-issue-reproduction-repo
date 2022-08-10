@@ -14,6 +14,11 @@ class Banner extends Model
         'campaign_id',
     ];
 
+    /** Uncomment this if using ->multiple() on the FileUpload */
+    // protected $casts = [
+    //     'image_url' => 'array',
+    // ];
+
     public function campaign()
     {
         return $this->belongsTo(Campaign::class);
